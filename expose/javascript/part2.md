@@ -1,3 +1,4 @@
 1. The output from line 12 would be 3, because the for loop increments 3 times due to the 3 objects in the array passed when the function is called. Because each variable is var, it continues to persist outside the for loop and can be accessed and returned.
 2. The output from line 13 would be 150 because the last iteration of the loop is going to set discountedPrice equal to the last element in the array, 300, multiplied by 1 minues the discount, which is 0.5, meaning discountedPrice equal to 150 before the loop exits. 
-3. 
+3. The output from line 14 would be 150 because the Math.round function simply rounds the inputted number to the nearest integer, so by multiplying, rounding, and then divinding the code seems to be trying to find the dollar/cents value, but since 150, the valeu of discounted Price at the last iteration, is alredy a whole number no changes are made to the value.
+4. 
