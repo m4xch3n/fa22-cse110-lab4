@@ -1,3 +1,4 @@
+//Question 2 & 3
 function sumValues(num1, num2, add) {
     if (add) {
         let result = 0;

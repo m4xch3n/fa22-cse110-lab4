@@ -1,0 +1,3 @@
+1. The output from line 12 would be 3, because the for loop increments 3 times due to the 3 objects in the array passed when the function is called. Because each variable is var, it continues to persist outside the for loop and can be accessed and returned.
+2. The output from line 13 would be 150 because the last iteration of the loop is going to set discountedPrice equal to the last element in the array, 300, multiplied by 1 minues the discount, which is 0.5, meaning discountedPrice equal to 150 before the loop exits. 
+3. 
