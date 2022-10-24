@@ -1,0 +1,2 @@
+1. The bug is that instead of adding the numbers the user inputs, the program instead adds the string literals of the numbers the user input, so that the strings concatenate instead of actually doing the addition.
+2. To fix this, I simply cast num1 and num2 as numbers as they are being added together inside of calculateSum. This way, they will actually sum the two as numbers instead of sticking them togther as strings. 
