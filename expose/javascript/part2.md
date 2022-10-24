@@ -29,3 +29,5 @@
 14e. false; Even though it's not a strict check, true is equal to 1 and not 2, therefore it still returns false
 14f. true; when we cast 2 into a boolean, beacuse it's not 0 or null or anything like that, it becomes true and true is equal to true
 15. The two equal signs check to see if the two objects are a "sweet pair", that is whether they are equal to each other and nothing else. This means a string '2' can be equal to the number 2. The three equal signs are a strict equality check, and would not allow '2' to be equal to 2 because one is a string and the other a number
+17. The output given the parameters mentioned in the canvas querstion, the output would be an array with the values [2, 4, 6] inside. This function works by taking each element in the array passed and sending it through the function the user passes before putting it in a brand new array to return
+19. This code outputs the numbers 1 and 4 instantaneously, and followed directly by 3 with no delay, and then one second later 2 is printed. 
